@@ -1,4 +1,4 @@
 DesignPatterns
 ==============
 
-Somewhat contrived, but real examples of Design Patterns by Language
+Real examples of Design Patterns.
