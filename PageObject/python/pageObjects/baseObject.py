@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+
+from locators import locators
+
 class Base(object):
     
     def _init_(self, driver):
