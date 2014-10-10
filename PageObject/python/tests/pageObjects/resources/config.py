@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 class Config(object):
     
     def config(self, args):
