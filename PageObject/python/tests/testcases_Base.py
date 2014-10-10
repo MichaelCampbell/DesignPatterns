@@ -15,5 +15,6 @@ class TestCaseBase(TestCase):
         pass
 
     def tearDown(self):
+        self.driver.quit()
         pass
 
