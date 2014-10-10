@@ -6,5 +6,5 @@ class Config(object):
         desired_caps   = {}
         desired_caps['version'] = '1.0'
         desired_caps['browser'] = 'netscape'
-
+        return desired_caps
 
