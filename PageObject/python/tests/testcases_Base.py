@@ -11,7 +11,7 @@ class TestCaseBase(TestCase):
 
     def setUp(self):
         self.setup = Config()
-        self.drive = webdriver.Remote('http://0.0.0.0:4723/wd/hub', self.setup.config())
+        self.driver = webdriver.Remote('http://0.0.0.0:4723/wd/hub', self.setup.config())
         pass
 
     def tearDown(self):
