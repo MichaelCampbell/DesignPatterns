@@ -5,8 +5,8 @@
 locators = {}
 
 # Example XPath Locators
-locators["LOGIN_BUTTON"]   = "//xpath[1]/example[1]"
-locators["LOGOUT_BUTTON"]  = "//xpath[2]/example[2]"
-locators["USERNAME_FIELD"] = "//xpath[3]/example[3]"
-locators["PASSWORD_FIELD"] = "//xpath[4]/example[4]"
+locators["PAGE_A_BUTTON"]    = "//xpath[1]/example[1]"
+locators["PAGE_A_TEXTFIELD"] = "//xpath[2]/example[2]"
+locators["PAGE_B_BUTTON"   ] = "//xpath[3]/example[3]"
+locators["PAGE_B_TEXTFIELD"] = "//xpath[4]/example[4]"
 
