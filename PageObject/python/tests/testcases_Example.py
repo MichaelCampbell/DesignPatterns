@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+# The only required module to import should be the TestCaseBase
+# All other modules should have already been imported into TestCaseBase if needed
 from testcases_Base import TestCaseBase
 
 class TestCaseExample(TestCaseBase):
