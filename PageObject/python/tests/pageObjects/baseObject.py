@@ -2,8 +2,11 @@
 
 from locators import locators
 
+#Base class to be imported into all classes
+
 class Base(object):
-    
+# Common base functions that are shared across all objects
+
     def _init_(self, driver):
         self.driver = driver
     
