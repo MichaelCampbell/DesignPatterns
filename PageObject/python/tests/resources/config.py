@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+# Config should hold all of your desired compabilities
+# Browsers to run on, versions, locally, sauce, etc....
+
 class Config(object):
     
     def config(self):
