@@ -2,6 +2,8 @@
 
 # Example Locators file that would be imported into the baseObject.py  
 
+# Keeping all the locators in one locations makes it easier to update when they change
+
 locators = {}
 
 # Example XPath Locators
