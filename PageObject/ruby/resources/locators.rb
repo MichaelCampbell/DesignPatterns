@@ -1,8 +1,9 @@
-locator = {
+locator = {}
 
-  "page A button" => "xpath for button a",
-  "page A text field" => "xpath for text field a",
-  "page B button" => "cssid for button B",
-  "page B text field" => "cssid for text field B",
+locator["page A button"]     = "xpath for button A"
+locator["page A text field"] = "xpath for text field A"
+locator["page B button"]     = "cssid for button B"
+locator["page B text field"] = "cssid for text field B"
 
-}
+puts locator["page B text field"]
+
