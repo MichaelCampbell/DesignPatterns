@@ -1,6 +1,6 @@
 # imports baseObject
-require './baseObject'
-require '../resources/locators'
+require_relative './baseObject'
+require_relative '../resources/locators'
 
 # inherits from base
 class PageA < Base
