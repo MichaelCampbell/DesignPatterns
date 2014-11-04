@@ -3,7 +3,7 @@ require_relative './baseObject'
 require_relative '../resources/locators'
 
 # inherits from base
-class PageA < Base
+class ExampleA < Base
   
   def initialize(driver)
     super
