@@ -16,3 +16,10 @@ def run
   teardown
 end
 
+# will run block during yield
+run {
+  example = ExampleA.new(@driver)
+  example.send_text_to_pageA()
+  send_text_to_pageB()
+  # assertions 
+}
