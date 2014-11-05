@@ -1,6 +1,5 @@
 # imports baseObject
 require_relative './baseObject'
-require_relative '../resources/locators'
 
 # inherits from base
 class ExampleA < Base

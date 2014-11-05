@@ -1,3 +1,6 @@
+# imports locators
+require_relative '../resources/locators'
+
 class Base
 
   attr_reader :driver
